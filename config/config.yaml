@@ -1,0 +1,85 @@
+# ============================================================
+# JP_DON — Legal QA RAG  ·  central configuration
+# Every knob that affects accuracy lives here so ablations are
+# reproducible: flip a flag, re-run scripts/run_eval, record delta.
+# ============================================================
+
+paths:
+  seed_dir: data/seed
+  index_dir: data/index
+  eval_set: data/eval/testset.jsonl
+  models_dir: data/models
+
+# stores the router can dispatch to (each gets its own chunker + index)
+stores:
+  - name: statute
+    chunk_strategy: section      # split by "Section N"
+    overlap_tokens: 0
+  - name: case_law
+    chunk_strategy: paragraph    # argument blocks
+    overlap_tokens: 200
+  - name: contract
+    chunk_strategy: clause       # clause headings
+    overlap_tokens: 50
+
+embeddings:
+  # domain model vs general baseline — swap to measure retrieval-precision delta
+  model: sentence-transformers/all-MiniLM-L6-v2
+  legal_model: nlpaueb/legal-bert-base-uncased
+  use_legal_model: false
+  device: cpu
+
+retrieval:
+  multiquery:
+    enabled: true
+    n_variants: 4
+  hybrid:
+    enabled: true
+    bm25_weight: 0.5
+    dense_weight: 0.5
+  fusion:
+    rrf_k: 60                    # Reciprocal Rank Fusion constant
+  top_k_dense: 20
+  top_k_bm25: 20
+  top_k_merged: 20
+    # bge-reranker-large/base is the strongest but ~1GB; the MiniLM MS-MARCO
+    # cross-encoder is ~80MB and fast — same architecture, lighter weights.
+  rerank:
+    enabled: true
+    model: cross-encoder/ms-marco-MiniLM-L-6-v2
+    top_k_final: 5
+
+guardrails:
+  input_filter:
+    enabled: true
+    use_ml_classifier: true     # use trained intent model; else keyword heuristic
+  context_sufficiency:
+    enabled: true
+    min_chunks: 2
+    min_cosine: 0.45            # below this -> "insufficient information"
+    use_learned_scorer: true    # use hallucination/relevance ML model if available
+  output_faithfulness:
+    enabled: true
+    min_faithfulness: 0.75      # below -> regenerate with stricter prompt
+    max_regenerations: 1
+
+ml:
+  intent_classifier:
+    backend: tfidf_logreg        # tfidf_logreg | distilbert
+    distilbert_model: distilbert-base-uncased
+    labels: [statute, case_law, contract, out_of_scope]
+  hallucination_classifier:
+    backend: logreg              # trained on RAGAS faithfulness labels
+
+generation:
+  max_context_chars: 6000
+  temperature: 0.0
+  insufficient_msg: "Insufficient information found in the knowledge base to answer this reliably."
+
+evaluation:
+  ragas_metrics: [faithfulness, context_recall, answer_relevancy, context_precision]
+  ablation_stages:               # toggled progressively in run_eval
+    - baseline
+    - multiquery
+    - hybrid_rerank
+    - guardrails
