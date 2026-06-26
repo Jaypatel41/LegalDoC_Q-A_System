@@ -1,0 +1,23 @@
+Kesavananda Bharati v. State of Kerala (1973)
+
+The Supreme Court, by a 7-6 majority, held that Parliament has wide powers to amend the Constitution under Article 368, but it cannot alter the "basic structure" or framework of the Constitution. This basic structure doctrine became a cornerstone of Indian constitutional law, ensuring that fundamental features such as the supremacy of the Constitution, the rule of law, judicial review, and the separation of powers cannot be abrogated even by a constitutional amendment.
+
+The Court reasoned that the word "amend" in Article 368 does not include the power to abrogate or destroy the essential identity of the Constitution. While individual fundamental rights may be amended, the core principles that give the Constitution its identity are beyond the amending power of Parliament.
+
+Maneka Gandhi v. Union of India (1978)
+
+The Supreme Court expanded the scope of Article 21 (protection of life and personal liberty), holding that the procedure established by law must be just, fair, and reasonable, not arbitrary or oppressive. The Court read Articles 14, 19, and 21 together, establishing that any law depriving a person of life or personal liberty must satisfy the test of reasonableness.
+
+The judgment overruled the narrow interpretation in A.K. Gopalan and held that the expression "personal liberty" in Article 21 is of the widest amplitude, covering a variety of rights that constitute the personal liberty of a person.
+
+K.M. Nanavati v. State of Maharashtra (1962)
+
+This case concerned whether a killing was premeditated murder under Section 302 or culpable homicide under grave and sudden provocation. The Supreme Court upheld the conviction for murder, holding that the act of the accused was not done in the heat of the moment under grave and sudden provocation, since there was sufficient time for the passion to cool between the provocation and the act. The "grave and sudden provocation" exception to murder requires that the accused was deprived of self-control by provocation that was both grave and sudden.
+
+Vishaka v. State of Rajasthan (1997)
+
+In the absence of legislation on sexual harassment at the workplace, the Supreme Court laid down binding guidelines (the Vishaka Guidelines) to be treated as law under Article 141. The Court held that sexual harassment at the workplace violates the fundamental rights to equality under Articles 14 and 15, the right to practise any profession under Article 19(1)(g), and the right to life with dignity under Article 21. These guidelines remained in force until the enactment of the 2013 Act.
+
+Mohori Bibee v. Dharmodas Ghose (1903)
+
+The Privy Council held that an agreement by a minor is void ab initio. A minor is not competent to contract under Section 11 of the Indian Contract Act, and therefore any agreement entered into by a minor is void from the very beginning and cannot be enforced against the minor. The doctrine of estoppel does not apply against a minor who misrepresents his age.
