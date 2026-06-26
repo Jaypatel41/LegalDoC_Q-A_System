@@ -1,0 +1,101 @@
+{"query": "What is the punishment for murder under IPC?", "label": "statute"}
+{"query": "Which section deals with theft?", "label": "statute"}
+{"query": "Define culpable homicide as per the penal code", "label": "statute"}
+{"query": "What does Section 498A say about cruelty?", "label": "statute"}
+{"query": "Punishment for cheating under IPC 420", "label": "statute"}
+{"query": "What is the penalty for rape under Indian law?", "label": "statute"}
+{"query": "Explain Section 302 of the IPC", "label": "statute"}
+{"query": "What is sedition under the penal code?", "label": "statute"}
+{"query": "Compensation for breach under the Contract Act section 73", "label": "statute"}
+{"query": "Which provision covers causing death by negligence?", "label": "statute"}
+{"query": "What is the punishment for committing theft?", "label": "statute"}
+{"query": "Define murder according to the statute", "label": "statute"}
+{"query": "What section covers indemnity in the contract act?", "label": "statute"}
+{"query": "Legal definition of culpable homicide not amounting to murder", "label": "statute"}
+{"query": "What is the maximum imprisonment for cheating?", "label": "statute"}
+{"query": "What did the Supreme Court hold in Kesavananda Bharati?", "label": "case_law"}
+{"query": "Explain the basic structure doctrine from case law", "label": "case_law"}
+{"query": "What was the ruling in Maneka Gandhi v Union of India?", "label": "case_law"}
+{"query": "Tell me about the Vishaka guidelines judgment", "label": "case_law"}
+{"query": "What was decided in the Nanavati case?", "label": "case_law"}
+{"query": "Which judgment expanded Article 21?", "label": "case_law"}
+{"query": "Precedent on grave and sudden provocation", "label": "case_law"}
+{"query": "What did the court rule about minor's agreement in Mohori Bibee?", "label": "case_law"}
+{"query": "Landmark case on sexual harassment at workplace", "label": "case_law"}
+{"query": "Supreme Court ruling on amending the constitution", "label": "case_law"}
+{"query": "Case law on personal liberty and Article 21", "label": "case_law"}
+{"query": "What precedent governs provocation as a defence to murder?", "label": "case_law"}
+{"query": "Judgment holding minor's contract void ab initio", "label": "case_law"}
+{"query": "Which case laid down workplace harassment guidelines?", "label": "case_law"}
+{"query": "What was the majority ratio in the basic structure case?", "label": "case_law"}
+{"query": "What is the termination notice period in the service agreement?", "label": "contract"}
+{"query": "What does the confidentiality clause say?", "label": "contract"}
+{"query": "What is the limitation of liability in this contract?", "label": "contract"}
+{"query": "How are late payments handled under the agreement?", "label": "contract"}
+{"query": "What is the governing law clause of the agreement?", "label": "contract"}
+{"query": "What does the force majeure clause cover?", "label": "contract"}
+{"query": "What are the payment terms in the contract?", "label": "contract"}
+{"query": "What is the indemnification obligation of the service provider?", "label": "contract"}
+{"query": "How long do confidentiality obligations survive termination?", "label": "contract"}
+{"query": "What is the dispute resolution mechanism in the agreement?", "label": "contract"}
+{"query": "Can either party terminate the agreement for convenience?", "label": "contract"}
+{"query": "What is the interest rate on late payment in the contract?", "label": "contract"}
+{"query": "What is the aggregate liability cap in this agreement?", "label": "contract"}
+{"query": "What notice is required for material breach of the contract?", "label": "contract"}
+{"query": "Where is the seat of arbitration under the agreement?", "label": "contract"}
+{"query": "What is the weather in Mumbai today?", "label": "out_of_scope"}
+{"query": "Recommend a good biryani recipe", "label": "out_of_scope"}
+{"query": "Who won the cricket match yesterday?", "label": "out_of_scope"}
+{"query": "How do I invest in mutual funds?", "label": "out_of_scope"}
+{"query": "Write me a poem about the ocean", "label": "out_of_scope"}
+{"query": "What is the capital of France?", "label": "out_of_scope"}
+{"query": "How to fix a flat tyre?", "label": "out_of_scope"}
+{"query": "Best places to travel in summer", "label": "out_of_scope"}
+{"query": "Explain how neural networks work", "label": "out_of_scope"}
+{"query": "What time does the movie start?", "label": "out_of_scope"}
+{"query": "Translate hello into Spanish", "label": "out_of_scope"}
+{"query": "Give me a workout plan for the week", "label": "out_of_scope"}
+{"query": "What is the jail term for committing murder?", "label": "statute"}
+{"query": "Under which IPC section is dowry harassment punishable?", "label": "statute"}
+{"query": "What is the legal punishment for forgery of documents?", "label": "statute"}
+{"query": "Define dishonest misappropriation of property under the code", "label": "statute"}
+{"query": "What does the penal code say about criminal breach of trust?", "label": "statute"}
+{"query": "What is the fine for committing cheating under section 420?", "label": "statute"}
+{"query": "Which section penalises voluntarily causing grievous hurt?", "label": "statute"}
+{"query": "What is the statutory definition of theft?", "label": "statute"}
+{"query": "What is the punishment prescribed for sedition?", "label": "statute"}
+{"query": "Explain the provision on compensation for breach of contract", "label": "statute"}
+{"query": "What is the punishment for abetment of suicide under IPC?", "label": "statute"}
+{"query": "Which section deals with wrongful confinement?", "label": "statute"}
+{"query": "What was the holding in the basic structure doctrine judgment?", "label": "case_law"}
+{"query": "Summarise the ratio in Maneka Gandhi case", "label": "case_law"}
+{"query": "What principle did the court establish about Article 21?", "label": "case_law"}
+{"query": "Which judgment dealt with workplace sexual harassment guidelines?", "label": "case_law"}
+{"query": "What was the reasoning of the bench in Kesavananda Bharati?", "label": "case_law"}
+{"query": "Explain the precedent on minor's contract being void", "label": "case_law"}
+{"query": "What did the apex court decide regarding provocation in Nanavati?", "label": "case_law"}
+{"query": "Which landmark case interpreted personal liberty broadly?", "label": "case_law"}
+{"query": "What is the case authority on basic structure of the constitution?", "label": "case_law"}
+{"query": "Tell me the ruling that overruled A.K. Gopalan", "label": "case_law"}
+{"query": "What confidentiality survival period is in the contract?", "label": "contract"}
+{"query": "What is the cap on aggregate liability in this agreement?", "label": "contract"}
+{"query": "How much notice for termination for convenience in the contract?", "label": "contract"}
+{"query": "What does clause 5 on limitation of liability say?", "label": "contract"}
+{"query": "What is the late payment penalty rate in the agreement?", "label": "contract"}
+{"query": "Where is arbitration seated under this service agreement?", "label": "contract"}
+{"query": "What are the indemnification obligations in the contract?", "label": "contract"}
+{"query": "How is force majeure defined in the agreement?", "label": "contract"}
+{"query": "What is the term duration of the service agreement?", "label": "contract"}
+{"query": "What payment timeline does the contract specify for invoices?", "label": "contract"}
+{"query": "What is the recipe for making paneer at home?", "label": "out_of_scope"}
+{"query": "How do I reset my email password?", "label": "out_of_scope"}
+{"query": "What are the best smartphones under 30000?", "label": "out_of_scope"}
+{"query": "Explain photosynthesis in simple words", "label": "out_of_scope"}
+{"query": "Who is the current captain of the Indian cricket team?", "label": "out_of_scope"}
+{"query": "How to lose weight quickly?", "label": "out_of_scope"}
+{"query": "What is the distance between Delhi and Mumbai?", "label": "out_of_scope"}
+{"query": "Suggest a good movie to watch tonight", "label": "out_of_scope"}
+{"query": "How does a car engine work?", "label": "out_of_scope"}
+{"query": "What is the square root of 144?", "label": "out_of_scope"}
+{"query": "Tips for cracking a coding interview", "label": "out_of_scope"}
+{"query": "How do I bake a chocolate cake?", "label": "out_of_scope"}
