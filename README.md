@@ -235,7 +235,3 @@ The pipeline is fully provider-agnostic. Set `LLM_PROVIDER` in `.env`:
 | `local` | `llama3:8b` (Ollama) | Fully offline, no API cost |
 
 ---
-
-## License
-
-MIT
